@@ -70,7 +70,5 @@ const mensajeWhatsApp = encodeURIComponent(`%2C%20ya%20tengo%20mi%20orden!%0AQui
 // Construimos el enlace oficial de la API de WhatsApp
 
 
-botonCuenta.href ='https://api.whatsapp.com/send?phone=' + numeroTelefono + '&text=' + mensajeWhatsApp;
-
-
+botonCuenta.href ='https://api.whatsapp.com/send?phone=5217225452036&text=Hola%2C%20ya%20tengo%20mi%20orden!%0AQuiero%20lo%20siguiente%3A';
 
