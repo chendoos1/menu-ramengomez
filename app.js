@@ -71,3 +71,4 @@ const mensajeWhatsApp = encodeURIComponent(`¡Hola! En la ${numeroMesa} de Ramen
 botonCuenta.href = `https://wa.me{numeroTelefono}?text=${mensajeWhatsApp}`;
 
 
+
