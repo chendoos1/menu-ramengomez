@@ -59,7 +59,7 @@ aplicarLogicaMenu(menuRamen.platillo1);
 aplicarLogicaMenu(menuRamen.platillo2);
 
 // 4. Lógica para el botón de WhatsApp (Pedir la cuenta)
-const numeroTelefono = "+527225452036"; // 👈 REEMPLAZA AQUÍ: Pon tu número con código de país (ej. 52 para México) sin espacios ni el signo +
+const numeroTelefono = "527225452036"; // 👈 REEMPLAZA AQUÍ: Pon tu número con código de país (ej. 52 para México) sin espacios ni el signo +
 const numeroMesa = "Mesa 5"; // 👈 Aquí simularíamos el identificador de la mesa
 
 const botonCuenta = document.getElementById("btn-cuenta");
