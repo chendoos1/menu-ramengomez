@@ -65,12 +65,12 @@ const numeroMesa = "Mesa 5"; // 👈 Aquí simularíamos el identificador de la 
 const botonCuenta = document.getElementById("btn-cuenta");
 
 // Creamos el texto automático que le llegará al dueño del restaurante
-const mensajeWhatsApp = encodeURIComponent(`¡Hola! En la ${numeroMesa} de Ramen GOMEZ solicitamos la cuenta, por favor. 🍜💳`);
+const mensajeWhatsApp = encodeURIComponent(`%2C%20ya%20tengo%20mi%20orden!%0AQuiero%20lo%20siguiente%3A 🍜💳`);
 
 // Construimos el enlace oficial de la API de WhatsApp
-botonCuenta.href = 'https://wa.me' + numeroTelefono + '?text=' + mensajeWhatsApp;
 
 
+botonCuenta.href ='https://api.whatsapp.com/send?phone=' + numeroTelefono + '&text=' + mensajeWhatsApp;
 
 
 
