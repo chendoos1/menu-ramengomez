@@ -107,3 +107,24 @@ body {
 .ramen-info {
     flex: 1;
 }
+
+/* Estilos para el botón flotante */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #27ae60; /* Verde tipo WhatsApp */
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+    transition: transform 0.2s;
+    font-size: 0.95rem;
+}
+
+.floating-btn:active {
+    transform: scale(0.95); /* Efecto de pulsación en el celular */
+}
