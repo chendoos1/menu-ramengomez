@@ -1,0 +1,109 @@
+/* Configuración general de la pantalla */
+body {
+    background-color: #121212; /* Fondo oscuro elegante */
+    color: #f5f5f5; /* Texto claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezado del restaurante */
+.restaurant-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.restaurant-header h1 {
+    color: #e74c3c; /* Color rojo ramen */
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.restaurant-header p {
+    color: #aaa;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Contenedor del menú */
+.menu-container {
+    width: 100%;
+    max-width: 400px; /* Tamaño ideal para celulares */
+}
+
+/* Tarjeta de platillo */
+.ramen-card {
+    background-color: #1e1e1e;
+    border-left: 4px solid #e74c3c; /* Detalle rojo a la izquierda */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* Fila del título y precio */
+.ramen-title-row {
+    display: flex;
+    justify-content: space-between; /* Manda el precio a la derecha */
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.ramen-title-row h3 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.price {
+    color: #f1c40f; /* Color dorado para el precio */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Descripción */
+.description {
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin: 0 0 12px 0;
+}
+
+/* Etiqueta de disponibilidad */
+.badge {
+    background-color: #27ae60;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Modificamos la tarjeta para que acepte la foto a la izquierda */
+.ramen-card {
+    background-color: #1e1e1e;
+    border-left: 4px solid #e74c3c;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    display: flex; /* Esto alinea la foto al lado del texto */
+    gap: 15px; /* Espacio entre la foto y el texto */
+    align-items: center;
+}
+
+/* Diseño de la miniatura de la comida */
+.ramen-thumb {
+    width: 90px;
+    height: 90px;
+    object-fit: cover; /* Evita que la foto se estire feo */
+    border-radius: 6px;
+    background-color: #333;
+}
+
+/* Forzamos a que el texto ocupe el resto del espacio disponible */
+.ramen-info {
+    flex: 1;
+}
