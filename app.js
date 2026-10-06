@@ -69,3 +69,4 @@ const mensajeWhatsApp = encodeURIComponent(`¡Hola! En la ${numeroMesa} de Ramen
 
 // Construimos el enlace oficial de la API de WhatsApp
 botonCuenta.href = `https://wa.me{numeroTelefono}?text=${mensajeWhatsApp}`;
+
