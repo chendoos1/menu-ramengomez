@@ -68,7 +68,9 @@ const botonCuenta = document.getElementById("btn-cuenta");
 const mensajeWhatsApp = encodeURIComponent(`¡Hola! En la ${numeroMesa} de Ramen GOMEZ solicitamos la cuenta, por favor. 🍜💳`);
 
 // Construimos el enlace oficial de la API de WhatsApp
-botonCuenta.href = `https://wa.me{numeroTelefono}?text=${mensajeWhatsApp}`;
+botonCuenta.href = 'https://wa.me' + numeroTelefono + '?text=' + mensajeWhatsApp;
+
+
 
 
 
